@@ -1,0 +1,8 @@
+CARTELLA INPUT
+==============
+
+Metti in questa cartella i file XML delle fatture elettroniche (FatturaPA)
+che vuoi convertire in PDF.
+
+Dopo aver copiato i file qui, esegui lo script batch.php
+(vedi leggimi.txt nella cartella principale).

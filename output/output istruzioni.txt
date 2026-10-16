@@ -1,0 +1,8 @@
+CARTELLA OUTPUT
+===============
+
+In questa cartella troverai i PDF generati dalle fatture XML,
+creati automaticamente dallo script batch.php (o convert.php).
+
+Non serve copiare nulla qui a mano: i file vengono creati dallo script
+a partire da quelli presenti nella cartella input.

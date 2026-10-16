@@ -1,0 +1,36 @@
+FATTURA XML TO PDF
+===================
+
+Cosa fa
+-------
+Converte le fatture elettroniche XML (formato FatturaPA) in PDF di cortesia,
+leggibili facilmente. Legge i file dalla cartella "input" e salva i PDF
+generati nella cartella "output".
+
+Programmi necessari per far partire lo script
+----------------------------------------------
+- PHP 8.1 o superiore (https://windows.php.net/download/)
+- Composer, il gestore di pacchetti PHP (https://getcomposer.org/download/)
+- Le librerie del progetto (cartella "vendor") vanno installate con Composer,
+  non sono incluse nel repository: dopo aver scaricato il progetto, apri
+  PowerShell o il prompt dei comandi in questa cartella ed esegui:
+
+  composer install
+
+Come eseguirlo
+---------------
+Conversione di tutte le fatture in input:
+1. Copia i file XML da convertire dentro la cartella "input"
+2. Apri PowerShell in questa cartella
+3. Esegui:
+
+   php batch.php
+
+4. I PDF generati compariranno nella cartella "output"
+
+Conversione di un singolo file:
+
+   php convert.php percorso\al\file.xml [percorso\al\output.pdf]
+
+Se non indichi il nome del PDF, viene usato lo stesso nome dell'XML con
+estensione .pdf.
